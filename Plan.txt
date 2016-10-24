@@ -1,0 +1,8 @@
+Michal Kubiak- Ogólna budowa aplikacji, skladanie skladowych projektu w dzialajaca calosc
+Maciej Geisler- Zaprojektowanie miasta, systemu "spawnowania" smieci, i adresowania(kazdy dom powinien miec swój adres zeby mozna bylo "podjechac")
+Mateusz Michalski- Zaprojektowanie smieciarki, systemu poruszania sie smieciarki, i odbierania smieci z ulicy
+Jakub Niepsuj- Rozpoznawanie jezyka wprowadzanego, komunikacja programu z uzytkownikiem
+
+Aplikacja smieciarka:
+Miasto z ulicami, i domkami, przed kazdym domkiem pole do spawnowania kubla na smieci(papier, plastik, szklo, odpady zmieszane), które smieciarka wywozi na wysypisako, na wysypisku 4 sektory do oddawania smieci. Smieciarka powinna miec 4-6 miejsc na kubly( np w postaci kwadracików na naczepie, gdzie po zaladowaniu bedzie widniec literka, od rodzaju smieci). Smieciarka powinna przyjmowac polecenia typu "odbierz smieci spod /adres/" lub "jedz x pól do przodu", czyli odbierac smieci, jadac samemu po nie lub bedac manualnie doprowadzonym.
+Obsluga programu za pomoca prostej sztucznej inteligencji opartej na regexie pythona. Prosty interfejs, menu typu START, INSTRUKCJE, AUTORZY, WYJDZ.   
